@@ -64,34 +64,34 @@ body {
 }
 
 .header__button--burger {
-	background: #FF3E79 url(../header-icons/burger.svg) no-repeat center;
+	background: #FF3E79 url(../header__icons/burger.svg) no-repeat center;
 	margin: 0;
 }
 
 .header__button--call {
-	background: #FF3E79 url(../header-icons/call.svg) no-repeat center;
+	background: #FF3E79 url(../header__icons/call.svg) no-repeat center;
 }
 
 .header__button--chat {
-	background: #FF3E79 url(../header-icons/chat.svg) no-repeat center;
+	background: #FF3E79 url(../header__icons/chat.svg) no-repeat center;
 }
 
 .header__button--profile {
-	background: #FF3E79 url(../header-icons/profile.svg) no-repeat center;
+	background: #FF3E79 url(../header__icons/profile.svg) no-repeat center;
 }
 
 .header__button--repair {
-	background: #FF3E79 url(../header-icons/repair.svg) no-repeat center;
+	background: #FF3E79 url(../header__icons/repair.svg) no-repeat center;
 }
 
 .header__button--checkstatus {
-	background: #FF3E79 url(../header-icons/checkstatus.svg) no-repeat center;
+	background: #FF3E79 url(../header__icons/checkstatus.svg) no-repeat center;
 }
 
 .header__logo {
 	width: 97px;
 	height: 51px;
-	background: url(../header-icons/Group.svg) no-repeat center;
+	background: url(../header__icons/Group.svg) no-repeat center;
 	margin-left: 16px;
 }
 
@@ -178,6 +178,7 @@ body {
 .about-company__container {
 	display: flex;
 	flex-wrap: wrap;
+	align-items: flex-start;
 	flex-basis: 50%;
 }
 
